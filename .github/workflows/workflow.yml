@@ -31,9 +31,9 @@ jobs:
         
       - name: Run gitops script
         run: |
-          git update-index --chmod=+x gitops.sh
-            ./gitops.sh
-          shell: bash
+          chmod=+x gitops.sh
+          ./gitops.sh
+        shell: bash
       
       - name: Apply latest configuration to Fleet
         uses: ./.github/gitops-action
