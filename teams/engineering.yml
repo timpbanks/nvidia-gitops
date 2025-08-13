@@ -45,4 +45,4 @@ team_settings:
       policy_ids: 
 software:
   packages:
-    - path: ../scripts/cloudflare-warp.yml
+    - path: ../lib/windows/software/cloudflare-warp.yml
