@@ -30,7 +30,7 @@ jobs:
         uses: actions/checkout@v4
         
       - name: Run gitops script
-        run: chmod=+x gitops.sh
+        run: chmod +x gitops.sh
       
       - name: Apply latest configuration to Fleet
         uses: ./.github/gitops-action
